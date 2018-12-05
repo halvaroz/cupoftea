@@ -1,0 +1,612 @@
+/*GLOBAL */
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+section {
+    padding: 1.5rem 0.5rem;
+}
+
+h2, h3, figcaption {
+    font-family: "Amaranth";
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.twenty4 {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+
+nav, main a {
+    white-space: nowrap;
+}
+
+.mainco .btn {
+    background-color: #B09067;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.mainco .btn:hover {
+    background-color: rgba(176,144,103,0.75);
+    color: white;
+}
+
+
+
+
+figcaption, #home p {
+    font-size: 2rem;
+    color: rgb(95,95,95);
+    text-align: center;
+}
+
+header, footer {
+    color: white;
+}
+
+body {
+    background-color: rgb(242,242,242);
+}
+
+.container {
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.opacity{
+    background-color: rgba(1,1,1,0.18);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main section {
+    background-color: white;
+}
+
+header {
+	background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+div.container {
+
+}
+
+#bann {
+    background-image: url("../img/ribbon.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 15rem;
+    font-size: 1rem;
+    font-weight: normal;
+    z-index: 5;
+}
+
+
+#offre img {
+    width: 100%;
+}
+
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#fltwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a{
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/*main///////////////////////////*/
+
+#home h2, #home h3 {
+    color: rgb(150,176,17);
+    text-align: center;
+}
+
+
+
+article > a{
+    color: white;
+    background-color: rgb(176,144,103);
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
+    width: auto;
+}
+
+body img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    margin: 2.5rem auto;
+}
+
+article {
+    margin: 0 2rem;
+}
+
+div > nav > a{
+    margin: 2rem auto;
+    font-size: 1.5rem;
+}
+
+#basket {
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+figure img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+/*footer*/
+footer {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+#navbasse {
+    width: 87%;
+    margin: 0 auto;
+}
+
+#navbasse div {
+    margin-top: 3rem;
+}
+
+
+#prop {
+    width:100%;
+    margin: 0 auto;
+}
+
+#prop i {
+    display: block;
+}
+
+#prop p {
+    text-transform: uppercase;
+}
+
+
+/*licence*/
+
+.licence a {
+    color: white;
+    display: inline-block;
+}
+
+.licence li {
+    display: inline-block;
+    color: white;
+    padding: 1rem;
+}
+
+.licence {
+	font-size: 1.3rem;
+	text-align: center;
+	color: white;
+}
+
+.licence img {
+    width: 50px;
+}
+
+/*css des pages secondaires
+*/
+
+.about {
+    text-align: left;
+}
+
+.about h2 {
+    color: rgb(95,95,95);
+}
+
+.about h3 {
+    color: rgb(150,176,17);
+}
+
+.about p {
+    font-size: 2rem;
+    color: rgb(95,95,95);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.icons {
+    margin-top: 25px;
+    width: 100px;
+}
+
+.about h2 {
+    padding-left: 2rem;
+}
+
+#lgreen {
+    background-color: rgb(234,239,207);
+    text-align: center;
+    margin: 1.7rem 2rem;
+}
+
+
+/*listing*/
+
+
+
+article.clist > img{
+    float: left;
+}
+
+.clist h2{
+    text-align: left;
+    color: rgb(150,176,17);
+}
+
+.clist  p {
+    color: rgb(95,95,95);
+    font-size: 1.6rem;
+}
+
+.alist p, .alist a {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.clist {
+    margin: 2rem auto;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+a[href*="intent"] {
+            display:inline-block;
+            margin-top: 0.4em;
+        }
+        
+        .rating {
+            width: 226px;
+            margin: 3rem auto;
+            line-height: 1.1;
+            font-size: 3rem;
+            overflow:hidden;
+        }
+        .rating a {
+            float:right;
+            color: #aaa;
+            text-decoration: none;
+            -webkit-transition: color .4s;
+            -moz-transition: color .4s;
+            -o-transition: color .4s;
+            transition: color .4s;
+        }
+        .rating a:hover,
+        .rating a:hover ~ a,
+        .rating a:focus,
+        .rating a:focus ~ a     {
+            color: orange;
+            cursor: pointer;
+        }
+        .rating2 {
+            direction: rtl;
+        }
+        .rating2 a {
+            float:none;
+        }
+
+.mainco {
+    background-color: white;
+    color: rgb(95,95,95);
+    padding: 1.7rem;
+    margin-bottom: 3rem;
+    font-size: 100%;
+    font-size: 1.6rem;
+}
+
+#avis {
+    color: rgb(150,176,17);
+}
+
+#rightprod {
+    text-align: right;
+}
+
+
+
+a[href*="wana"] {
+    display: block;
+    color: white;
+    background-color: rgb(176,144,103);
+    font-size: 1.2rem;
+    padding: 1.3rem 1%;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+form {
+    margin-top: 13rem;
+}
+
+.product i {
+    color: pink;
+    margin-top: 1rem;
+}
+
+.green {
+    color: rgb(150,176,17);
+}
+
+.mainco .twenty4 {
+    margin-bottom: 3rem;
+}
+
+/*effets*/
+nav > a:hover {
+    background-color: rgba(255,255,255,0.28);
+}
+
+
+
+#navhor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*#navhor a {
+    padding: 1rem;
+}
+*/
+
+.auveur:hover figure{
+    opacity: 0.5;
+}
+
+.auveur:hover figure:hover{
+    opacity: 1;
+
+}
+
+.five figure {
+    width: 100%;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .flex-between {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #navhor {
+        display: flex;
+        justify-content: space-between;
+         align-items: flex-start;
+    }
+    #jc-center {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fig {
+        flex-basis: 35%;
+        text-align: center;
+    }
+
+    img.trio {
+        display: block;
+        margin: 0 auto;    
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #fltwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+}
+
+@media screen and (max-width:768px) {
+    #offre, div.flexslider, main > h2, span {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .flex-between {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .twoperline {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #prop > p {
+        flex-basis: 35%;
+    }
+
+
+
+    .flex-around > p, .flex-around > figure {
+        flex-basis: 40%;
+        display: inline;
+    }
+
+    #navhor {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #fd-column, #navbasse {
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #fd-column div {
+        display: inline;
+
+    }
+
+    
+    #basket {
+        text-align: center;
+        margin-top: 25px;
+        padding: 10px 15px 10px 5px;
+        position: fixed;
+        left: 0;
+        top: 25px;
+        z-index: 10000;
+        background-color: #96B011;
+        border-radius: 0 50px 50px 0;
+        -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #basket span {
+        display: none;
+    }
+
+    #basket strong::before {
+        font-size: 1.6rem;
+    }
+
+    #basket strong {
+        font-size: 1.4rem;
+    }
+
+    div.left, div.right {
+        float: none;
+    }
+
+    div#top, #avis, .twenty4, a#lastl,form,.green,.rating {
+        text-align: center!important;
+    }
+
+   
+    
+    select {
+        width: 90%;
+    }
+
+    option {
+        line-height: 3;
+        height: 2rem;
+    }
+
+    #bann {
+    background-image: url("");
+
+}
+
+.tea {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+}
+
+.tea > img {
+    float: left;
+    margin: 25px 10px 0 0;
+}
+
+
+
